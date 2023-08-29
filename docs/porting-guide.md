@@ -36,6 +36,7 @@ The switch from Badger's own library to PicoGraphics changed a few minor things:
 * `pen()` is now `set_pen()`
 * `update_speed()` is now `set_update_speed()`
 * `thickness()` is now `set_thickness()` and *only* applies to Hershey fonts
+* `font()` is now `set_font`
 
 Additionally some features have been outright dropped:
 
